@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TestCaseOneComponent } from './test-case-one.component';
+import { TestCaseThreeComponent } from './test-case-three.component';
 
-fdescribe('TestCaseOneComponent', () => {
-  let component: TestCaseOneComponent;
-  let fixture: ComponentFixture<TestCaseOneComponent>;
+describe('TestCaseThreeComponent', () => {
+  let component: TestCaseThreeComponent;
+  let fixture: ComponentFixture<TestCaseThreeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TestCaseOneComponent ]
+      declarations: [ TestCaseThreeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TestCaseOneComponent);
+    fixture = TestBed.createComponent(TestCaseThreeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -22,5 +22,4 @@ fdescribe('TestCaseOneComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
 });
