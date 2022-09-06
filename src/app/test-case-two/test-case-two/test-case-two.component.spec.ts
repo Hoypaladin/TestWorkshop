@@ -1,8 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Router } from '@angular/router';
-import { UsefulService } from '../service/useful.service';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TestCaseTwoComponent } from './test-case-two.component';
+import {TestCaseTwoComponent} from './test-case-two.component';
 
 describe('TestCaseTwoComponent', () => {
   let component: TestCaseTwoComponent;
@@ -11,9 +9,9 @@ describe('TestCaseTwoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TestCaseTwoComponent ],
+      declarations: [TestCaseTwoComponent],
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
