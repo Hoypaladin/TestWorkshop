@@ -32,8 +32,13 @@ describe('TestCaseOneAnswerComponent', () => {
   });
 
   it('should increment', () => {
-    expect(component.count).toEqual(0);
+    // Given
+    component.count = 0;
+
+    // When
     component.incrementCount();
+
+    // Then
     expect(component.count).toEqual(1);
   });
 });
